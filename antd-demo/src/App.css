@@ -63,3 +63,39 @@ html, body, .App {
   padding: 20px;
   margin: 10px;
 }
+
+/* .logo {
+  background-image: url("vouch-logo.svg");
+  height: 64px;
+  width: 64px;
+  display: flex;
+} */
+
+.logo {
+  float: left;
+  justify-self: start;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  margin: 0px 0px 0px 0;
+  background-image: url("vouch-logo.svg");
+
+  /* background: rgba(255, 255, 255, 0.3); */
+}
+
+.header {
+  background-color: #FAFAFA;
+}
+
+.menu-links {
+  background-color: #FAFAFA;
+  color: #008080;
+}
+
+.green-text {
+  color: #66B2B2;
+}
+
+.title-green-text {
+  color: #008080;
+}

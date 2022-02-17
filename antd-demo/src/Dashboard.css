@@ -1,0 +1,55 @@
+.green-text {
+    color: #66B2B2;
+}
+
+.title-green-text {
+    color: #008080 !important;
+}
+
+/* .dashboard {
+    padding: 10%;
+} */
+
+.active-engagement {
+    padding: 10px;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    background-color: #FAFAFA;
+}
+
+.feed-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.feed-page {
+    height: 100%;
+    background-color: #008080;
+}
+
+.dashboard-box-title {
+    border-width: 1px;
+    border-color: #001A23;
+}
+
+.request-entry {
+    padding: 5%;
+    border-width: 1px !important;
+    border-color: #001A23 !important;
+}
+
+.profile-pic {
+    background-image: url("vouch-logo.svg");
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-position: center;
+}
+
+.profile-name {
+    float: right;
+}
