@@ -2,38 +2,17 @@ import React from 'react';
 import { Button, Input, Row, Col, Typography, Menu, Layout, Divider, Space } from 'antd';
 
 import './Dashboard.css';
-import { Link } from 'react-router-dom';
+import { NavBar } from './NavBar';
 
 const { Title, Text } = Typography;
-const { Content, Header } = Layout;
+const { Content } = Layout;
 
 
 export const Dashboard = () => {
   return (
     <div className="feed-page">
         <Layout className="feed-page">
-            <Header className="header">
-                <div className="logo" />
-                <Row justify="end">
-                    <Menu className="menu-links" mode="horizontal">
-                        <Menu.Item key="1">
-                        <Link to="/feed">
-                            <span className="title-green-text">Home</span>
-                        </Link>
-                        </Menu.Item>
-                        <Menu.Item key="2">
-                        <Link to="/dashboard">
-                            <span className="title-green-text">Dashboard</span>
-                        </Link>
-                        </Menu.Item>
-                        <Menu.Item key="3">
-                        <Link to="/settings">
-                            <span className="title-green-text">Settings</span>
-                        </Link>
-                        </Menu.Item>
-                    </Menu>
-                </Row>
-            </Header>
+            <NavBar/>
             <Content>
                 <div className="dashboard">
                     <Row justify="space-around">

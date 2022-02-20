@@ -38,10 +38,8 @@ html, body, .App {
 
 .request-box {
   width: 50%; 
-  margin: 10px;
   background-color: #FAFAFA;
-  border-radius: 10px;
-  padding: 15px;
+  padding: 20px;
 }
 
 .feed-container {
@@ -60,16 +58,9 @@ html, body, .App {
 .request-input {
   width: 50%;
   background-color: #FAFAFA;
-  padding: 20px;
-  margin: 10px;
+  padding: 30px;
+  margin-top: 10px;
 }
-
-/* .logo {
-  background-image: url("vouch-logo.svg");
-  height: 64px;
-  width: 64px;
-  display: flex;
-} */
 
 .logo {
   float: left;
@@ -98,4 +89,9 @@ html, body, .App {
 
 .title-green-text {
   color: #008080;
+}
+
+.title-green-text-secondary {
+  opacity: 75%;
+  color: #001A23 !important;
 }
